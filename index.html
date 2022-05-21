@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="icon-256x256.png">
+    <link rel="manifest" href="manifest.json"/>
+    <link rel="apple-touch-icon" href="icon-256x256.png">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Emergency Calls!</title>
+</head>
+<body>
+    <div id="buttonwrapper">
+        <div id="buttonoutline" class="button"></div>
+        <div id="buttoninline" class="button">
+            <h1 id="buttontext">Refresh</h1>
+        </div>
+    </div>
+    <div id="textwrapper">
+        <ul>
+            <li><b>Country: <span id="country"></span></b> <img id="flag" src=""></li><br>
+            <li class="number">👮 Police: <a href="#" id="policephone"></a></li><br>
+            <li class="number">🧑‍⚕️ Ambulance: <a href="#" id="hospitalphone"></a></li><br>
+            <li class="number">🧑‍🚒 Firefighters: <a href="#" id="firephone"></a></li>
+        </ul>
+    </div>
+    <h6><b>Caution</b>, using a VPN might result in false information.</h6>
+</body>
+</html>

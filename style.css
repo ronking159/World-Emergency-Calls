@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+#buttonwrapper {
+    position: absolute;
+    width: 300px; height: 300px;
+    top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#buttonoutline {
+    position: absolute;
+    width: 87%; height: 87%;
+    background-color: #ba1313;
+    border-radius: 100%;
+}
+
+#buttoninline {
+    position: absolute;
+    width: 75%; height: 75%;
+    background-color: red;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttontext {
+    font-size: 200%;
+    font-weight: 900;
+    color: white;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.button:active {
+    cursor: default;
+}
+
+#textwrapper {
+    position: absolute;
+    top: calc(3vh + 300px);
+    margin-left: 15%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul > li {
+    display: inline-block;
+    font-size: 200%;
+}
+
+ul > li:last-child::after {
+    content: '';
+    display: inline-block;
+}
+
+#flag {
+    width: 1em;
+    transform: translateY(.25em);
+}
+
+h6 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+
+b {
+    font-weight: 900;
+}
+
+@media screen and (max-width: 500px) {
+    #buttonwrapper {
+        position: absolute;
+        width: 100vw; height: 100vw;
+        top: 3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #buttonoutline {
+        position: absolute;
+        width: 87%; height: 87%;
+        background-color: #ba1313;
+        border-radius: 100%;
+    }
+    
+    #buttoninline {
+        position: absolute;
+        width: 75%; height: 75%;
+        background-color: red;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #buttontext {
+        font-size: 200%;
+        font-weight: 900;
+        color: white;
+        user-select: none;
+    }
+    
+    #textwrapper {
+        position: absolute;
+        top: 52vh;
+        text-overflow: clip;
+        margin-left: 0;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    .number {
+        font-size: 200%;
+    }
+
+    ul > li::after {
+        content: '';
+        display: inline-block;
+    }
+}
