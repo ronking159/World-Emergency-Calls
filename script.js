@@ -6456,7 +6456,7 @@ const c = [
     },
     {
       "Country": {
-        "Name": "United States of America",
+        "Name": "United States",
         "ISOCode": "US",
         "ISONumeric": "840"
       },
