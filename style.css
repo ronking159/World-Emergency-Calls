@@ -12,6 +12,8 @@ body {
     align-items: center;
     left: 50%;
     transform: translateX(-50%);
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 #buttonoutline {
