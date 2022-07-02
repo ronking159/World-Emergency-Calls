@@ -1,6 +1,6 @@
 async function get() {
     let data
-    //These is just a demostration, the key would be hidden if the I uploaded it globaly, don't steal my key :(
+    //These is just a demostration, the key would be hidden if the I uploaded it globaly, don't steal my key :( But I can make a server for it with node js.
     await fetch('https://api.ipregistry.co/?key=pvg3737yum75lhv1')
     .then(res => res.json())
     .then(d => data = d)
